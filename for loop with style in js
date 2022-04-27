@@ -1,0 +1,39 @@
+<p id="demo"></p>
+<script>
+let x=[
+"<style>h2{color:red;background-color:yellow;} li{color:skyblue;}#a{color:maroon;}</style>",
+"<center>",
+"<h2>Ten most powerful words in the world </h2>",
+"<ol>",
+"<li id='a'>Abdication</li>",
+"<li>Love</li>",
+"<li>Hate</li>",
+"<li>World</li>",
+"<li>Win</li>",
+"<li>Nature</li>",
+"</ol>",
+"</center>",
+
+
+"<center>",
+"<h2>Ten most powerful words in the world </h2>",
+"<ol>",
+"<li>Abdication</li>",
+"<li>Love</li>",
+"<li>Hate</li>",
+"<li>World</li>",
+"<li>Win</li>",
+"<li>Nature</li>",
+"</ol>",
+"</center>"
+];
+
+
+
+let len=x.length;
+let text=" ";
+for(let i=0;i<len;i++){
+text+=x[i]+" ";
+document.getElementById("demo").innerHTML=text;
+}
+</script>
