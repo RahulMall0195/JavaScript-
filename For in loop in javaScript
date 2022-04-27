@@ -1,0 +1,9 @@
+<p id="demo"></p>
+<script>
+const person =["a","b","c","d","e"]; 
+let txt = "";
+for (let x in person) {
+  txt += person[x] + "<br>";
+}
+document.getElementById("demo").innerHTML = txt;
+</script>
